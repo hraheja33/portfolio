@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;700&family=Inter:wght@400;700&family=Montserrat:wght@400;700&family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./asset/images/favicon_io/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Harshkumar Raheja</title>
+</head>
+
+<body>
+    <div class="container-fluid head-div">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img src="./asset/images/logo.png" id="logo-img" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon" ></span>
+          </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" tabindex="1" aria-current="page" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" tabindex="1" aria-current="page" href="#about-me">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" tabindex="1" aria-current="page" href="#projects">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" tabindex="1" aria-current="page" href="#contact">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link resume-btn" target="_blank" tabindex="1" aria-current="page" href="./asset/Harshkumar Raheja-Resume.pdf">Resume</a>
+                        </li>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <a id="emailID" href="mailto:harshraheja33@gmail.com">harshraheja33@gmail.com <span><hr id="hr"></span></a>
+    <a id="linkedIn" href=" https://www.linkedin.com/in/harsh-raheja-52b251204 "><i class="fab fa-linkedin"></i><span><hr id="hrLinkedIn"></span></a>
+    <div class="container-fluid main-div">
+        <div>
+            <p id="nameIntro">Hi, my name is</p>
+            <h1 id="name">Harshkumar Raheja</h1>
+            <h1 id="tagLine">I build things for the web.</h1>
+            <p id="description">I am a web Developer and web designer specializing in developing (and occasionally designing) exceptional digital experiences.</p>
+            <a href="#projects" id="projectLink">Check out my projects!</a>
+        </div>
+    </div>
+
+    <div class="container-fluid aboutMe" id="about-me">
+        <h1 id="headingAboutMe">About Me</h1>
+        <div class="row">
+            <div class="col-lg-6">
+                <p>Hello! My name is Hasrh and I enjoy creating things that live on the internet. I am a programmer with good knowledge of front-end techniques. I love structure and order and I also stand for quality. I love spending time on fixing little
+                    details and optimizing web apps. Also I like working in a team, you'll learn faster and much more. As the saying goes: <br> "Two heades are better than one". </p>
+
+                <div id="skillList">
+                    <div>JavaScript</div>
+                    <div>ReactJs</div>
+                    <div>Node.js</div>
+                    <div>MongoDB</div>
+                    <div>PHP</div>
+                    <div>MySQL</div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div id="img">
+                    <img src="./asset/images/IMG-5020.jpg" width="80%" height="auto" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid" id="projects">
+        <h1 id="projectHead">Some Things I've built</h1>
+
+
+        <!------------------------- 1st porject ----------------------------->
+
+
+        <div class="row" id="fProject">
+            <div class="col-lg-6">
+                <div>
+                    <a href="https://hrs33.github.io/boosted/index.html" target="_blank"><img id="projectImg" src="./asset/Projects/boosted-website.png" width="100%" style="height: 400px;" height="auto" alt=""></a>
+                </div>
+            </div>
+            <div class="col-lg-6 projectInfo">
+                <div>
+                    <h1 id="projectTitle">Boosted Boards</h1>
+                    <div id="projectDisc">
+                        <p id="projectDiscription">An eCommerce website selling electric boards and scootes and equipments for that. It is developed using plain HTML, CSS and framework of CSS, Bootstrap.<span style="color: #64ffda;">This is developed with mobile-first approach.</span></p>
+                    </div>
+                    <div id="projectAsset">
+                        <li id="projectAssetList">HTML</li>
+                        <li id="projectAssetList">CSS</li>
+                        <li id="projectAssetList">BOOTSTRAP</li>
+                        <li id="projectAssetList">GitHub</li>
+                    </div>
+                    <div id="externalLinks">
+                        <a href="https://github.com/hrs33/boosted" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://hrs33.github.io/boosted/index.html" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!----------------------- 2nd Project------------------------->
+
+
+        <div class="row" id="sProject">
+            <div class="col-lg-6 projectInfo2">
+                <div>
+                    <h1 id="projectTitle2">ToDo List</h1>
+                    <div id="projectDisc2">
+                        <p id="projectDiscription2">Todoist is a to-do list and task manager for professionals and small businesses. Combining tasks, projects, comments, attachments, notifications, and more, Todoist lets users streamline their personal and team productivity and
+                            work more effectively.<span style="color: #64ffda;"> Users can create cutom list by entering title of the list at the end of the URL.</span></p>
+                    </div>
+                    <div id="projectAsset2">
+                        <li id="projectAssetList2">Nodejs</li>
+                        <li id="projectAssetList2">Express</li>
+                        <li id="projectAssetList2">Ejs</li>
+                        <li id="projectAssetList2">MongoDB</li>
+                        <li id="projectAssetList2">Mongoose</li>
+                        <li id="projectAssetList2">Heroku</li>
+                    </div>
+                    <div id="externalLinks">
+                        <a href="https://github.com/hrs33/todoList" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://sheltered-spire-75907.herokuapp.com/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6" id="sProjectImg">
+                <div>
+                    <a href="https://sheltered-spire-75907.herokuapp.com/" target="_blank"><img id="projectImg" src="./asset/Projects/ToDOList.png" width="100%" height="auto" alt=""></a>
+                </div>
+            </div>
+        </div>
+
+
+        <!------------------------ 3rd Project ----------------------->
+
+
+        <div class="row" id="tProject">
+            <div class="col-lg-6">
+                <div>
+                    <a href="https://shielded-bastion-01079.herokuapp.com/" id="projectImg" target="_blank"><img src="./asset/Projects/Blog-website.png" width="100%" style="height: 400px;" height="auto" alt=""></a>
+                </div>
+            </div>
+            <div class="col-lg-6 projectInfo">
+                <div>
+                    <h1 id="projectTitle">Blog Website</h1>
+                    <div id="projectDisc">
+                        <p id="projectDiscription">A blog website where users can write and read blogs. User-written blog will be saved in the database and displayed on the Home page.</p>
+                    </div>
+                    <div id="projectAsset">
+                        <li id="projectAssetList">Nodejs</li>
+                        <li id="projectAssetList">Express</li>
+                        <li id="projectAssetList">Ejs</li>
+                        <li id="projectAssetList">MongoDB</li>
+                        <li id="projectAssetList">Mongoose</li>
+                        <li id="projectAssetList">Heroku</li>
+                    </div>
+                    <div id="externalLinks">
+                        <a href="https://github.com/hrs33/boosted" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://shielded-bastion-01079.herokuapp.com/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--------------------------- 04th Project ---------------------------------->
+
+        <div class="row" id="sProject">
+            <div class="col-lg-6 projectInfo2">
+                <div>
+                    <h1 id="projectTitle2">Weather App</h1>
+                    <div id="projectDisc2">
+                        <p id="projectDiscription2">This website is developed using vanilla javascript and fetching data from an open weather API. <span style="color: #64ffda;">In this, the users can enter the name of the city and App will display current weather data related to that city.</span></p>
+                    </div>
+                    <div id="projectAsset2">
+                        <li id="projectAssetList2">JavaScript</li>
+                        <li id="projectAssetList2">Open Weather API</li>
+                        <li id="projectAssetList2">HTML</li>
+                        <li id="projectAssetList2">CSS</li>
+
+                    </div>
+                    <div id="externalLinks">
+                        <a href="https://github.com/hraheja33/weatherAPI" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://hraheja33.github.io/weatherAPI/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6" id="sProjectImg">
+                <div>
+                    <a href="https://hraheja33.github.io/weatherAPI/" target="_blank"><img id="projectImg" src="./asset/Projects/weatherAPI.png" width="100%" style="height: 400px;" height="auto" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid contactMe" id="contact">
+        <h1>Get In Touch</h1>
+        <p>I have an extensive knowledge of HTML, JavaScript, CSS. Combined with my communication and problem-solving skills, I think I would be an excellent candidate for the Web Developer role at your company.</p>
+        <a href="mailto:harshraheja33@gmail.com">Say Hello</a>
+    </div>
+
+    <p id="copyright">Built by Harsh Raheja</p>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
