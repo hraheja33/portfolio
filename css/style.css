@@ -1,0 +1,554 @@
+body {
+    width: 100%;
+    font-family: 'Montserrat', 'Fira Mono', 'Roboto Mono', 'Inter', sans-serif, monospace;
+    background-color: #0a192f;
+}
+
+a {
+    text-decoration: none;
+}
+
+#emailID,
+#linkedIn {
+    color: #8892b0;
+    font-family: "Roboto Mono";
+    position: absolute;
+    letter-spacing: 2px;
+    position: fixed;
+    writing-mode: vertical-rl;
+}
+
+#emailID {
+    right: 5%;
+    font-size: 14px;
+    top: 50%;
+}
+
+#hr,
+#hrLinkedIn {
+    width: 80px;
+    height: 2px;
+    position: absolute;
+    position: fixed;
+    transform: rotate(-90deg);
+    writing-mode: vertical-rl;
+    top: 90%;
+    border-color: #64ffda;
+}
+
+#hr {
+    right: 3.1%;
+}
+
+#linkedIn {
+    left: 5%;
+    font-size: 25px;
+    top: 80%;
+}
+
+#hrLinkedIn {
+    left: 3.5%;
+}
+
+@media only screen and (max-width: 500px) {
+    #hrLinkedIn {
+        left: -5%;
+    }
+    #linkedIn {
+        left: 2%;
+        top: 82%;
+        font-size: 20px;
+    }
+    #hr {
+        right: -5%;
+    }
+    #emailID {
+        right: 2%;
+        font-size: 14px;
+        top: 55%;
+    }
+}
+
+#emailID:hover,
+#linkedIn:hover {
+    color: #64ffda;
+}
+
+
+/* ---------------------------Navbar------------------------ */
+
+.navbar {
+    margin: 1% 3% 5% 3%;
+}
+
+.navbar-brand {
+    border: 2px solid #64ffda;
+    padding: 0.5%;
+}
+
+.navbar-brand:hover {
+    background-color: rgba(100, 255, 218, 0.1);
+}
+
+#logo-img {
+    width: 30px;
+    height: auto;
+}
+
+.navbar-nav {
+    font-weight: 800;
+    position: relative;
+    left: 58%;
+}
+
+.navbar-nav .nav-item {
+    margin-left: 8%;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: white;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.resume-btn {
+    border: 2px solid #64ffda;
+}
+
+.resume-btn:hover {
+    background-color: rgba(100, 255, 218, 0.1);
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #64ffda;
+}
+
+.navbar-nav .nav-item .nav-link:active {
+    color: #64ffda;
+}
+
+.navbar-nav .nav-item .nav-link[tabindex]:focus {
+    color: #64ffda;
+    outline: none;
+}
+
+.navbar-light .navbar-toggler {
+    background-color: transparent;
+    border: 1px solid #64ffda;
+    border-color: rgba(100, 255, 218, 1);
+    outline: none;
+}
+
+.navbar-light .navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 255, 255, 255.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    outline: none;
+}
+
+@media only screen and (max-width: 992px) {
+    .navbar-nav {
+        left: 40%;
+        right: 0;
+        width: 50%;
+    }
+    .navbar-nav .nav-item .nav-link {
+        text-align: center;
+    }
+}
+
+
+/* ------------------------------Main Div ------------------------------- */
+
+.main-div div {
+    position: relative;
+    left: 15%;
+    width: 70%;
+    padding-top: 8%;
+    margin-top: 5%;
+    padding-bottom: 5%;
+}
+
+.main-div div #nameIntro {
+    font-family: "Fira Mono";
+    color: #64ffda;
+}
+
+.main-div div #name {
+    font-family: "Montserrat";
+    color: #ccd6f6;
+    font-weight: 800;
+    font-size: 3rem;
+}
+
+.main-div div #tagLine {
+    color: #8892b0;
+    font-weight: 800;
+    font-size: 3rem;
+    width: 100%;
+}
+
+.main-div div #description {
+    color: white;
+    width: 45%;
+    margin-top: 3%;
+    margin-bottom: 8%;
+}
+
+.main-div div #projectLink {
+    text-decoration: none;
+    font-family: "Fira Mono";
+    color: #64ffda;
+    font-size: 14px;
+    border: 2px solid #64ffda;
+    padding: 20px 20px;
+}
+
+.main-div div #projectLink:hover {
+    background-color: rgba(100, 255, 218, 0.1);
+}
+
+@media only screen and (max-width: 500px) {
+    .main-div div {
+        width: 80%;
+        margin-top: 40%;
+    }
+    .main-div div #name {
+        font-size: 35px;
+    }
+    .main-div div #tagLine {
+        font-size: 25px;
+    }
+    .main-div div #description {
+        color: white;
+        width: 90%;
+        margin-top: 5%;
+        margin-bottom: 15%;
+    }
+    .main-div div #projectLink {
+        font-size: 12px;
+        border: 2px solid #64ffda;
+        padding: 10px;
+    }
+}
+
+
+/* ------------------------------------About Me --------------------------------------- */
+
+.aboutMe {
+    padding-top: 5px;
+    margin-bottom: 10%;
+}
+
+.aboutMe .row {
+    color: white;
+    width: 80%;
+    margin-left: 15%;
+}
+
+.aboutMe .row .col-lg-6 {
+    padding: 0;
+    padding-top: 5%;
+}
+
+.aboutMe #headingAboutMe {
+    color: white;
+    font-size: 25px;
+    font-weight: 800;
+    width: 70%;
+    /* padding-top: 5%; */
+    margin: 12% 0 0 15%;
+}
+
+.aboutMe .row .col-lg-6>#skillList {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 5%;
+}
+
+.aboutMe .row .col-lg-6>#img {
+    padding: 0 0 0 15%;
+}
+
+.aboutMe .row .col-lg-6>#img>img {
+    border: 5px solid white;
+}
+
+@media only screen and (max-width: 500px) {
+    .aboutMe {
+        padding-top: 20%;
+        margin-bottom: 20%;
+    }
+    .aboutMe .row .col-lg-6>#img {
+        padding: 0 0 0 5%;
+    }
+}
+
+
+/*--------------------------------------- Projects------------------------------------------- */
+
+
+/* --------------------------------------1st Project----------------------------------------- */
+
+#projectImg {
+    filter: none;
+    height: 400px;
+}
+
+#projects {
+    margin-top: 10%;
+    margin-left: 14%;
+    padding: 0;
+    padding-top: 5%;
+    width: 80%;
+}
+
+#projects #fProject {
+    margin-top: 10%;
+}
+
+#projectHead {
+    margin-bottom: 5%;
+    color: white;
+    padding-top: 5%;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.projectInfo {
+    text-align: right;
+    color: white;
+    position: relative;
+    right: 10%;
+    padding: 6% 0%;
+}
+
+#projectTitle {
+    color: #64ffda;
+    font-size: 2rem;
+    font-weight: 800;
+    padding: 0 3% 3% 0;
+}
+
+.projectInfo #projectDisc {
+    background-color: #112240;
+    border-radius: 5px;
+}
+
+#projectDiscription {
+    font-family: "Inter";
+    box-sizing: border-box;
+    padding: 3% 3% 3% 0%;
+    width: 90%;
+    margin-left: 10%;
+    text-align: right;
+}
+
+#projectAssetList {
+    font-family: "Roboto mono";
+    list-style-type: none;
+    display: flex;
+    color: #a8b2d1;
+    flex-direction: column;
+    display: inline-block;
+    padding-right: 20px;
+    font-size: 14px;
+    padding-top: 2%;
+}
+
+#externalLinks {
+    padding-top: 3%;
+    padding-right: 20px;
+}
+
+#externalLinks>a {
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+#externalLinks>a:hover {
+    color: #64ffda;
+}
+
+@media only screen and (max-width: 500px) {
+    #projects {
+        padding-top: 20%;
+        width: 80%;
+    }
+    #projectImg {
+        height: 200px;
+    }
+    .projectInfo {
+        text-align: center;
+        margin-top: 10%;
+        right: 5%;
+    }
+    .projectInfo #projectDisc {
+        width: 90%;
+        margin-left: 5%;
+    }
+    #projectDiscription {
+        width: 80%;
+        padding: 5% 0%;
+        text-align: center;
+    }
+    #projectTitle {
+        font-size: 25px;
+        padding: 0 0% 3% 0;
+    }
+    #projectAssetList {
+        text-align: center;
+    }
+}
+
+
+/* --------------------------------------------2nd Project-------------------------------- */
+
+#sProject {
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+
+#sProjectImg {
+    position: relative;
+    right: 10%;
+}
+
+.projectInfo2 {
+    text-align: left;
+    color: white;
+    position: relative;
+    left: 3%;
+    z-index: 1;
+    padding: 4% 0%;
+}
+
+#projectTitle2 {
+    color: #64ffda;
+    font-size: 2rem;
+    font-weight: 800;
+    padding: 0 0 3% 3%;
+}
+
+.projectInfo2 #projectDisc2 {
+    background-color: #112240;
+    border-radius: 5px;
+}
+
+#projectDiscription2 {
+    font-family: "Inter";
+    box-sizing: border-box;
+    padding: 3% 5% 3% 3%;
+    width: 100%;
+    text-align: left;
+}
+
+#projectAssetList2 {
+    font-family: "Roboto mono";
+    list-style-type: none;
+    display: flex;
+    color: #a8b2d1;
+    flex-direction: column;
+    display: inline-block;
+    padding-left: 20px;
+    font-size: 14px;
+    padding-top: 2%;
+}
+
+@media only screen and (max-width: 500px) {
+    #sProjectImg {
+        right: 0%;
+    }
+    #projects {
+        padding-top: 20%;
+        width: 80%;
+    }
+    .projectInfo2 {
+        text-align: center;
+        margin-top: 10%;
+    }
+    .projectInfo2 #projectDisc2 {
+        width: 90%;
+        margin: 0%;
+    }
+    #projectDiscription2 {
+        font-family: "Inter";
+        box-sizing: border-box;
+        padding: 3% 5% 3% 3%;
+        width: 100%;
+        text-align: center;
+    }
+    #projectTitle2 {
+        font-size: 25px;
+        width: 80%;
+    }
+    #projectAssetList2 {
+        text-align: center;
+    }
+}
+
+
+/* -----------------------------contact ---------------------------------------- */
+
+#contact {
+    text-align: center;
+    width: 50%;
+    margin-top: 20%;
+    margin-bottom: 15%;
+}
+
+#contact h1 {
+    color: white;
+    font-weight: 800;
+}
+
+#contact p {
+    color: #8892b0;
+    width: 85%;
+    font-family: "Inter";
+    margin-left: 6%;
+    padding-top: 2%;
+    padding-bottom: 15%;
+}
+
+#contact a {
+    color: #64ffda;
+    font-family: "Fira Mono";
+    text-decoration: none;
+    padding: 20px 30px;
+    border: 2px solid #64ffda;
+}
+
+#contact a:hover {
+    background-color: rgba(100, 255, 218, 0.1);
+}
+
+#copyright {
+    color: #8892b0;
+    text-align: center;
+    font-size: 12px;
+}
+
+@media only screen and (max-width:500px) {
+    #contact {
+        margin: 20% 0 15% 15%;
+        text-align: center;
+        width: 80%;
+    }
+    #contact h1 {
+        width: 250px;
+        margin-left: 8%;
+    }
+    #contact p {
+        width: 250px;
+        text-align: center;
+    }
+    #contact a {
+        margin-top: 10%;
+        text-align: center;
+        padding: 10px 20px;
+        border: 2px solid #64ffda;
+    }
+}
